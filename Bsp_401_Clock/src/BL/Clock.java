@@ -54,7 +54,6 @@ public class Clock extends JPanel implements Runnable {
     public void run() {
         while (true) {
             time = ZonedDateTime.now(zoneid);
-
             try {
                 this.setValues(time);
                 Thread.sleep(1000);

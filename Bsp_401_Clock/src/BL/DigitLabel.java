@@ -22,10 +22,10 @@ public class DigitLabel extends JLabel {
         }
 
         this.digit = digit;
-        this.defineIcon();
+        this.defineIcon(digit);
     }
 
-    public void defineIcon() {
+    public void defineIcon(int digit) {
 
         switch (digit) {
             case -1:
