@@ -18,7 +18,7 @@ public class DigitLabel extends JLabel {
     public void setDigit(int digit) throws Exception {
 
         if (digit < -1 && digit > 9) {
-            throw new Exception("not a valid value");
+            throw new Exception("not a valid value!");
         }
 
         this.digit = digit;
